@@ -1,0 +1,62 @@
+/* --------------- Separador --------------- */
+.separador-contenedor-2{
+    width: 75%;
+    height: auto;
+    margin-left: 12.5%;
+    margin-bottom: 10px;
+
+    text-align: center;
+    border-bottom: 3px solid #000000;
+}
+
+.separador-txt-principal-2{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+
+/* --------------- Enlaces - General --------------- */
+#separador-enlaces-2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#separador-enlaces-2 a{
+    margin: 0px 5%;
+    padding: 10px 5%;
+    text-decoration: none;
+}
+
+/* --------------- Enlaces - Individual --------------- */
+#enlace-1{
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+
+#enlace-1:hover{
+    color: #FFFFFF;
+    background-color: blueviolet;    
+}
+
+#enlace-2{
+    color: palevioletred;
+    border: 2px solid palevioletred;
+}
+
+#enlace-2:hover{
+    color: #FFFFFF;
+    background-color: palevioletred;    
+}
+
+#enlace-3{
+    color: dodgerblue;
+    border: 2px solid dodgerblue;
+}
+
+#enlace-3:hover{
+    color: #FFFFFF;
+    background-color: dodgerblue;    
+}

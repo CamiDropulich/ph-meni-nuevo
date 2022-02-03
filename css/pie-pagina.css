@@ -1,0 +1,69 @@
+/* --------------- Pie de página --------------- */
+#pie-pagina-contenedor{
+    width: 100%;
+
+    background-color: rgb(20, 20, 20);
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie-pagina-separador{
+    padding-top: 6.5vh;
+    padding-bottom: 5px;
+
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 2px solid rgb(200, 200, 200);
+}
+
+/* --------------- Contacto --------------- */
+#pie-pagina-contacto{
+    margin: 0px 5%;
+    width: 30%;
+    height: 30vh;
+}
+
+.pie-contacto{
+    font-size: 18px;
+    color: rgb(220, 220, 220);
+}
+
+.pie-contacto-info{
+    font-size: 18px;
+    color: rgb(120, 120, 120);
+}
+
+.pie-contacto-info a{
+    color: inherit;
+    text-decoration: none;
+}
+
+/* --------------- Redes sociales --------------- */
+#pie-pagina-redes-sociales{
+    margin: 0px 5%;
+    width: 30%;
+    height: 30vh;
+}
+
+#redes-sociales-texto{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(220, 220, 220);
+}
+
+#redes-sociales-enlaces{
+    margin: 10px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#redes-sociales-enlaces img{
+    width: 35px;
+    height: auto;
+    filter: invert(.8);
+}

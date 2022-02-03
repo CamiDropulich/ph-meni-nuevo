@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Franco Menichelli - Photography | Inicio | Fotógrafo y filmmaker</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/ajustes-generales.css">
+    <link rel="stylesheet" href="./css/animacion-precarga.css">
+    <link rel="stylesheet" href="./css/menu-adaptable-lateral.css">
+    <link rel="stylesheet" href="./css/menu-adaptable-lateral-media-queries.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/banner-media-queries.css">
+    <link rel="stylesheet" href="./css/perfil.css">
+    <link rel="stylesheet" href="./css/perfil-media-queries.css">
+    <link rel="stylesheet" href="./css/galeria-horizontal.css">
+    <link rel="stylesheet" href="./css/galeria-horizontal-media-queries.css">
+    <link rel="stylesheet" href="./css/galeria-vertical-1.css">
+    <link rel="stylesheet" href="./css/galeria-vertical-1-media-queries.css">
+    <link rel="stylesheet" href="./css/barra-movil.css">
+    <link rel="stylesheet" href="./css/comparador-imagenes.css">
+    <link rel="stylesheet" href="./css/selector-imagenes.css">
+    <link rel="stylesheet" href="./css/selector-imagenes-media-queries.css">
+    <link rel="stylesheet" href="./css/pie-pagina.css">
+    <link rel="stylesheet" href="./css/pie-pagina-media-queries.css">
+    <link rel="stylesheet" href="./css/separador.css">
+    <link rel="stylesheet" href="./css/separador-media-queries.css">
+    <link rel="shortcut icon" href="./imagenes/iconos/icono.ico">
+
+    <!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+    
+    <!-- JS -->
+    <script src="./js/animacion-precarga.js"></script>
+    <script src="./js/menu-adaptable-lateral.js"></script>
+    <script src="./js/banner.js"></script>
+    <script src="./js/comparador-selector-imagenes.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <!-- Animación de precarga -->
+        <div id="preloader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Barra de navegación -->
+        <nav id="nav-bar">
+            <div id="nav-bar-phone">
+                <ul id="nav-name">
+                    <li id="nav-name-1">Franco Menichelli</li>
+                    <li id="nav-name-2">Photography</li>
+                </ul>
+    
+                <div id="nav-btn-menu">
+                    <div class="barra" id="barra1">&nbsp;</div>
+                    <div class="barra" id="barra2">&nbsp;</div>
+                </div>
+            </div>
+    
+            <ul id="nav-btn-container">
+                <li class="nav-btn"><a href="index.html" class="nav-link" id="btn-actual">Inicio</a></li>
+                <li class="nav-btn"><a href="sobre-mi.html" class="nav-link">Sobre mí</a></li>
+                <li class="nav-btn"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li class="nav-btn"><a href="contacto.html" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <div id="banner-contenedor">
+        <div id="banner-eventos-contenedor">
+            <div class="banner-img banner-eventos" id="eventos-1"></div>
+            <div class="banner-img banner-eventos" id="eventos-2"></div>
+            <div class="banner-img banner-eventos" id="eventos-3"></div>
+        </div>
+
+        <div id="banner-deportes-contenedor">
+            <div class="banner-img banner-deportes" id="deportes-1"></div>
+            <div class="banner-img banner-deportes" id="deportes-2"></div>
+            <div class="banner-img banner-deportes" id="deportes-3"></div>
+        </div>
+
+        <div class="banner-img" id="banner-bordes"></div>
+
+        <div id="banner-retratos-contenedor">
+            <div class="banner-img banner-retratos" id="retratos-1"></div>
+            <div class="banner-img banner-retratos" id="retratos-2"></div>
+            <div class="banner-img banner-retratos" id="retratos-3"></div>
+        </div>
+
+        <div style="height: 100vh"></div>
+    </div>
+
+    <!-- Sobre mi -->
+    <div id="perfil-contenedor">
+        <div id="perfil-imagen">
+            <img src="./imagenes/perfil/perfil.jpg">
+        </div>
+        <div id="perfil-informacion">
+            <h2>¡Bienvenidos a mi página!</h2>
+            <p>Soy Franco Menichelli, fotógrafo y filmmaker</p>
+            <p>Aquí podrás encontrar mis servicios y ver toda mi galería de trabajos</p>
+            <p>Si te interesa contratarme, comunicate conmigo!</p>
+        </div>
+    </div>
+
+    <!-- Separador -->
+    <div class="separador-contenedor">
+        <h2 class="separador-txt-principal">Eventos</h2>
+    </div>
+    
+    <!-- Galería horizontal - Eventos -->
+    <div class="galeria-horizontal">
+        <figure class="fila">
+            <img src="./imagenes/imagen.jpg" class="galeria-img">
+            <img src="./imagenes/imagen.jpg" class="galeria-img">
+            <img src="./imagenes/imagen.jpg" class="galeria-img">
+            <img src="./imagenes/imagen.jpg" class="galeria-img">
+        </figure>
+    </div>
+    
+    <p class="separador-btn"><a href="./portfolio.html#eventos">Ver +</a></p>
+
+    <!-- Separador -->
+    <div class="separador-contenedor">
+        <h2 class="separador-txt-principal">Retratos</h2>
+    </div>
+
+    <!-- Galería vertical - Retratos -->
+    <div class="galeria-vertical-1">
+        <figure class="fila">
+            <img src="./imagenes/imagen1.jpg" class="galeria-img">
+            <img src="./imagenes/imagen1.jpg" class="galeria-img">
+            <img src="./imagenes/imagen1.jpg" class="galeria-img">
+            <img src="./imagenes/imagen1.jpg" class="galeria-img">
+        </figure>
+    </div>
+    
+    <p class="separador-btn"><a href="./portfolio.html#retratos">Ver +</a></p>
+
+    <!-- Separador -->
+    <div class="separador-contenedor">
+        <h2 class="separador-txt-principal">Deportes</h2>
+    </div>
+    
+    <!-- Galería horizontal - Deportes -->
+    <div class="galeria-horizontal">
+        <figure class="fila">
+            <img src="./imagenes/imagen.jpg" class="galeria-img">
+            <img src="./imagenes/imagen.jpg" class="galeria-img">
+            <img src="./imagenes/imagen.jpg" class="galeria-img">
+            <img src="./imagenes/imagen.jpg" class="galeria-img">
+        </figure>
+    </div>
+    
+    <p class="separador-btn"><a href="./portfolio.html#deportes">Ver +</a></p>
+
+    <!-- Separador -->
+    <div class="separador-contenedor">
+        <h2 class="separador-txt-principal">¡Edita las fotos!</h2>
+        <p class="separador-txt-secundario">Selecciona alguna de las imágenes que hay debajo y desliza la barra para ver los cambios realizados en la edición.</p>
+    </div>
+    
+    <!-- Comparador de imágenes -->
+    <div id="comparador-imagenes">
+        <div id="imagen-editada"></div>
+        <div id="txt-editada"></div>
+        <div id="imagen-original"></div>
+        <div id="txt-original"></div>
+        <div id="indicador"></div>
+    </div>
+
+    <div id="barra-movil-contenedor">
+        <div id="barra-movil"></div>
+    </div>
+
+    <div id="selector-imagenes-contenedor">
+        <figure id="selector-imagenes">
+            <img src="./imagenes/selector/foto-01-editada.jpg" class="selector-img" onclick="cambiarImagenComparador(1)">
+            <img src="./imagenes/selector/foto-02-editada.jpg" class="selector-img" onclick="cambiarImagenComparador(2)">
+            <img src="./imagenes/selector/foto-03-editada.jpg" class="selector-img" onclick="cambiarImagenComparador(3)">
+            <img src="./imagenes/selector/foto-04-editada.jpg" class="selector-img" onclick="cambiarImagenComparador(4)">
+        </figure>
+    </div>
+    
+    <!-- Pie de página -->
+    <footer id="pie-pagina-contenedor">
+        <div id="pie-pagina-contacto">
+            <div class="pie-pagina-separador">Contacto</div>
+            <div><span class="pie-contacto">Ubicación: </span><span class="pie-contacto-info">Buenos Aires, Argentina</span></div>
+            <div><span class="pie-contacto">Correo electrónico: </span><span class="pie-contacto-info"><a href="mailto:">[INSERTAR CORREO ELECTRÓNICO]</a></span></div>
+            <div><span class="pie-contacto">Teléfono: </span><span class="pie-contacto-info"><a href="https://wa.me/541123024153">+54 11 2302-4153</a></span></div>
+        </div>
+        <div id="pie-pagina-redes-sociales">
+            <div class="pie-pagina-separador">Redes sociales</div>
+            <div id="redes-sociales-texto">Sígueme en Instagram para estar al tanto de mis últimos trabajos</div>
+            <div id="redes-sociales-enlaces">
+                <a href="https://www.instagram.com/ph.meni/" target="_blank"><img src="./imagenes/iconos/instagram.png"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

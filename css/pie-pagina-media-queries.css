@@ -1,0 +1,26 @@
+/* --------------------------------------------------------------------- 720px */
+@media screen and (max-width: 720px){
+    /* --------------- Pie de página --------------- */
+    #pie-pagina-contenedor{
+        display: block;
+    }
+
+    .pie-pagina-separador{
+        padding-top: 1vh;
+        padding-bottom: 5px;
+    }
+
+    /* --------------- Contacto --------------- */
+    #pie-pagina-contacto{
+        margin: 0px 5%;
+        width: 80%;
+        height: 17vh;
+    }
+
+    /* --------------- Redes sociales --------------- */
+    #pie-pagina-redes-sociales{
+        margin: 0px 5%;
+        width: 80%;
+        height: 17vh;
+    }
+}

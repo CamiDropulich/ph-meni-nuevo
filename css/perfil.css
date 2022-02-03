@@ -1,0 +1,38 @@
+/* --------------- Perfil --------------- */
+#perfil-imagen{
+    width: 60%;
+    height: 100vh;
+    float: left;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#perfil-imagen img{
+    width: 50%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#perfil-informacion{
+    width: 40%;
+    height: 100vh;
+    float: left;
+
+    background-color: rgba(220, 220, 220, 1);
+    text-align: center;
+}
+
+#perfil-informacion h2{
+    padding-top: 40vh;
+    font-size: 25px;
+}
+
+#perfil-informacion p{
+    font-size: 18px;
+}
+
+#perfil-altura{
+    height: 100vh;
+}

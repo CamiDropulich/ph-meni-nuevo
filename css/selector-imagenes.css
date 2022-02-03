@@ -1,0 +1,13 @@
+/* --------------- Selector de imágenes --------------- */
+#selector-imagenes-contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selector-img{
+    margin: 10px 50px;
+
+    width: 200px;
+    height: auto;
+}

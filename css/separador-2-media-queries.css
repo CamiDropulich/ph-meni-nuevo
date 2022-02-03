@@ -1,0 +1,33 @@
+/* --------------------------------------------------------------------- 960 px */
+@media screen and (max-width: 960px){
+    /* --------------- Enlaces - General --------------- */
+    #separador-enlaces-2{
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    #separador-enlaces-2 a{
+        margin: 0px 10px;
+        padding: 5px 10px;
+    }
+}
+
+/* --------------------------------------------------------------------- 640 px */
+@media screen and (max-width: 640px){
+    /* --------------- Enlaces - General --------------- */
+    #separador-enlaces-2{
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    #separador-enlaces-2 a{
+        margin: 0px 0px;
+        padding: 5px 0px;
+    }
+}

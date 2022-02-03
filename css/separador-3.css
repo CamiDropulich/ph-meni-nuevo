@@ -1,0 +1,18 @@
+/* -------------------- Separador -------------------- */
+.separador-contenedor-3{
+    width: 15%;
+    height: auto;
+    margin-left: 2%;
+    margin-bottom: 10px;
+}
+
+.separador-txt-principal-3{
+    font-size: 24px;
+}
+
+.separador-txt-secundario-3{
+    padding-bottom: 5px;
+    border-bottom: 3px solid #000000;
+
+    font-size: 16px;
+}

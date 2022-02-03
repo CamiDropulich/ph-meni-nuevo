@@ -1,0 +1,39 @@
+/* -------------------- Separador -------------------- */
+.separador-contenedor{
+    width: 75%;
+    height: auto;
+    margin-left: 12.5%;
+    margin-bottom: 10px;
+
+    text-align: center;
+    border-bottom: 3px solid #000000;
+}
+
+.separador-txt-principal{
+    padding-top: 15px;
+    font-size: 28px;
+}
+
+.separador-txt-secundario{
+    padding-bottom: 10px;
+    
+    font-size: 20px;
+}
+
+.separador-btn{
+    margin-bottom: 50px;
+}
+
+.separador-btn a{
+    margin-left: 46%;
+    padding: 10px 2%;
+    border: 1px solid #000000;
+
+    font-size: 30px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.separador-btn a:visited{
+    color: inherit;
+}

@@ -1,0 +1,16 @@
+/* --------------- Galería --------------- */
+.galeria-vertical-1{
+    width: 100%;
+}
+
+.fila{
+    margin-left: 5vw;
+    width: 90vw;
+}
+
+.galeria-img{
+    margin: 0px 2vw;
+    margin-bottom: 15px;
+    width: 18vw;
+    height: auto;
+}

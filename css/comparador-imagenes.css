@@ -1,0 +1,47 @@
+/* ---------------- Comparador de imágenes --------------- */
+#comparador-imagenes{
+    width: 375px;
+    height: 500px;
+}
+
+/* ------------------- Imagen editada -------------------  */
+#imagen-editada{
+    position: absolute;
+    width: 375px;
+    height: 500px;
+    background-image: url(../imagenes/selector/foto-01-editada.jpg);
+    background-size: cover;
+}
+
+#txt-editada{
+    position: absolute;
+    width: 375px;
+    height: 500px;
+    background-image: url(../imagenes/comparador/editada.png);
+    background-size: cover;
+}
+
+/* ------------------- Imagen original ------------------- */
+#imagen-original{
+    position: absolute;
+    width: 375px;
+    height: 500px;
+    background-image: url(../imagenes/comparador/foto-01-original.jpg);
+    background-size: cover;
+}
+
+#txt-original{
+    position: absolute;
+    width: 375px;
+    height: 500px;
+    background-image: url(../imagenes/comparador/original.png);
+    background-size: cover;
+}
+
+/* -------------------    Indicador    ------------------- */
+#indicador{
+    position: absolute;
+    width: 2px;
+    height: 500px;
+    background-color: rgba(0, 255, 255, 0.8);
+}

@@ -1,0 +1,56 @@
+/* --------------- Banner de imágenes  --------------- */
+#banner-contenedor{
+    position: relative;
+}
+
+.banner-img{
+    position: absolute;
+}
+
+.banner-eventos{
+    width: 100%;
+    height: 100%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    clip-path: polygon(0.6% 0.6%, 0.6% 100%, 50% 100%, 0.6% 0.6%);
+    -webkit-clip-path: polygon(0.6% 0.6%, 0.6% 100%, 50% 100%, 0.6% 0.6%);
+
+    transition: clip-path ease 1s, opacity ease 1s;
+}
+
+.banner-deportes{
+    width: 100%;
+    height: 100%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    clip-path: polygon(99.4% 0.6%, 99.4% 100%, 50% 100%, 99.4% 0.6%);
+    -webkit-clip-path: polygon(99.4% 0.6%, 99.4% 100%, 50% 100%, 99.4% 0.6%);
+    transition: clip-path ease 1s, opacity ease 1s;
+}
+
+#banner-bordes{
+    width: 100%;
+    height: 100%;
+    
+    background-color: #FFFFFF;
+
+    clip-path: polygon(0.6% 0.6%, 100% 0.6%, 50% 99.4%, 50% 99.4%);
+    -webkit-clip-path: polygon(0.6% 0.6%, 100% 0.6%, 50% 99.4%, 50% 99.4%);
+    transition: clip-path ease 1s, opacity ease 1s;
+}
+
+.banner-retratos{
+    width: 100%;
+    height: 100%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    clip-path: polygon(1% 0%, 99% 0%, 50% 98%, 50% 98%);
+    -webkit-clip-path: polygon(1% 0%, 99% 0%, 50% 98%, 50% 98%);
+    transition: clip-path ease 1s, opacity ease 1s;
+}

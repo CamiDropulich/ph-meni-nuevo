@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Franco Menichelli - Photography | Contacto | Fotógrafo y filmmaker</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/ajustes-generales.css">
+    <link rel="stylesheet" href="./css/animacion-precarga.css">
+    <link rel="stylesheet" href="./css/menu-adaptable-lateral.css">
+    <link rel="stylesheet" href="./css/menu-adaptable-lateral-media-queries.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/pie-pagina.css">
+    <link rel="stylesheet" href="./css/pie-pagina-media-queries.css">
+    <link rel="shortcut icon" href="./imagenes/iconos/icono.ico">
+
+    <!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+    
+    <!-- JS -->
+    <script src="./js/animacion-precarga.js"></script>
+    <script src="./js/menu-adaptable-lateral.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <!-- Animación de precarga -->
+        <div id="preloader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Barra de navegación -->
+        <nav id="nav-bar">
+            <div id="nav-bar-phone">
+                <ul id="nav-name">
+                    <li id="nav-name-1">Franco Menichelli</li>
+                    <li id="nav-name-2">Photography</li>
+                </ul>
+    
+                <div id="nav-btn-menu">
+                    <div class="barra" id="barra1">&nbsp;</div>
+                    <div class="barra" id="barra2">&nbsp;</div>
+                </div>
+            </div>
+    
+            <ul id="nav-btn-container">
+                <li class="nav-btn"><a href="index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-btn"><a href="sobre-mi.html" class="nav-link">Sobre mí</a></li>
+                <li class="nav-btn"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li class="nav-btn"><a href="contacto.html" class="nav-link" id="btn-actual">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div style="height: 15vh">&nbsp;</div>
+    
+    <!-- Contacto -->
+    <form method="POST" action="./php/enviarDatosMail.php" id="contacto-contenedor">
+        <div id="contacto-txt">
+            <h2>Contacto</h2>
+            <p>Envía tu consulta!</p>
+        </div>
+        <input id="contacto-nombre" type="text" name="nombre" required="required" placeholder="Nombre">
+        <br>
+        <input id="contacto-email" type="email" name="email" required="required" placeholder="Correo electrónico">
+        <br>
+        <textarea id="contacto-mensaje" name="mensaje" required="required" placeholder="Mensaje"></textarea>
+        <br>
+        <input id="contacto-btn" type="submit" value="Enviar">
+    </form>
+    
+    <div style="height: 12.4vh">&nbsp;</div>
+
+    <!-- Pie de página -->
+    <footer id="pie-pagina-contenedor">
+        <div id="pie-pagina-contacto">
+            <div class="pie-pagina-separador">Contacto</div>
+            <div><span class="pie-contacto">Ubicación: </span><span class="pie-contacto-info">Buenos Aires, Argentina</span></div>
+            <div><span class="pie-contacto">Correo electrónico: </span><span class="pie-contacto-info"><a href="mailto:">[INSERTAR CORREO ELECTRÓNICO]</a></span></div>
+            <div><span class="pie-contacto">Teléfono: </span><span class="pie-contacto-info"><a href="https://wa.me/541123024153">+54 11 2302-4153</a></span></div>
+        </div>
+        <div id="pie-pagina-redes-sociales">
+            <div class="pie-pagina-separador">Redes sociales</div>
+            <div id="redes-sociales-texto">Sígueme en Instagram para estar al tanto de mis últimos trabajos</div>
+            <div id="redes-sociales-enlaces">
+                <a href="https://www.instagram.com/ph.meni/" target="_blank"><img src="./imagenes/iconos/instagram.png"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

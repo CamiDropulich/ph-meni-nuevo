@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Franco Menichelli - Photography | Mensaje enviado | Fotógrafo y filmmaker</title>
+
+    <!-- CSS -->
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        #txt1{
+            margin-top: 35vh;
+            font-size: 38px;
+            font-weight: 500;
+        }
+
+        #txt2{
+            font-size: 22px;
+        }
+
+        #segundos{
+            font-size: 38px;
+            font-weight: 500;
+        }
+    </style>
+
+    <!-- JS -->
+    <script>
+        window.addEventListener("load", () =>{
+            let num = 4;
+            let intervalo = setInterval(() =>{
+                document.getElementById("segundos").innerHTML = num;
+                
+                if(num == 0){
+                    clearInterval(intervalo);
+                    window.location = "index.html";
+                }
+
+                num--;
+            }, 1000)
+        }, false);
+    </script>
+</head>
+
+<body>
+    <p id="txt1">El mensaje se ha enviado con éxito</p>
+    <p id="txt2">En <span id="segundos">5</span> segundo(s) será redirigido al sitio</p>
+</body>
+
+</html>

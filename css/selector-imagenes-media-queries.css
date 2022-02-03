@@ -1,0 +1,23 @@
+/* ------------------------------------------------------------------------- 1200 px*/
+@media screen and (max-width: 1200px){
+    /* --------------- Selector de imágenes --------------- */
+    .selector-img{
+        margin: 10px 12.5vw;
+
+        width: 23.2vw;
+    }
+}
+
+/* ------------------------------------------------------------------------- 640 px*/
+@media screen and (max-width: 640px){
+    /* --------------- Selector de imágenes --------------- */
+    .selector-img{
+        margin: 10px 12.5vw;
+
+        width: 50vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

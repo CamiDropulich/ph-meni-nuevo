@@ -1,0 +1,33 @@
+/* -------------------------------------------------------------------------- 720 px */
+@media screen and (max-width: 720px){
+    /* --------------- Perfil --------------- */
+    #perfil-imagen{
+        position: relative;
+        width: 100%;
+        height: 50vh;
+    }
+
+    #perfil-imagen img{
+        width: 60%;
+    }
+
+    #perfil-informacion{
+        position: absolute;
+        width: 100%;
+        height: 50vh;
+        background-color: rgba(220, 220, 220, 0.6);
+    }
+    
+    #perfil-informacion h2{
+        padding-top: 35vw;
+        font-size: 25px;
+    }
+
+    #perfil-informacion p{
+        font-size: 18px;
+    }
+
+    #perfil-altura{
+        height: 50vh;
+    }
+}

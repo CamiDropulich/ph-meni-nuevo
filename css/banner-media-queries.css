@@ -1,0 +1,22 @@
+/* --------------- Banner de imágenes  ---------------------------------------- 720px */
+@media screen and (max-width: 720px){   
+    .banner-eventos{
+        clip-path: polygon(0% 0.6%, 100% 0.6%, 100% 50%, 100% 50%);
+        -webkit-clip-path: polygon(0% 0.6%, 100% 0.6%, 100% 50%, 100% 50%);
+    }
+    
+    .banner-deportes{
+        clip-path: polygon(0% 99.4%, 100% 99.4%, 100% 50%, 100% 50%);
+        -webkit-clip-path: polygon(0% 99.4%, 100% 99.4%, 100% 50%, 100% 50%);
+    }
+    
+    #banner-bordes{
+        clip-path: polygon(0% 0%, 0% 100%, 100% 50%, 100% 50%);
+        -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 50%, 100% 50%);
+    }
+    
+    .banner-retratos{
+        clip-path: polygon(0% 1%, 0% 99%, 98% 50%, 98% 50%);
+        -webkit-clip-path: polygon(0% 1%, 0% 99%, 98% 50%, 98% 50%);
+    }
+}

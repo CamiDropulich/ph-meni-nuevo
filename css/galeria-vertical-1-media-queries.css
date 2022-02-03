@@ -1,0 +1,9 @@
+/* ------------------------------------------------------------------ 720px */
+@media screen and (max-width: 720px){
+    /* --------------- Galería --------------- */
+    .galeria-img{
+        margin: 0px 0.5vw;
+        margin-bottom: 0.5vw;
+        width: 43vw;
+    }
+}

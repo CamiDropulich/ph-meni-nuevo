@@ -1,0 +1,27 @@
+/* -------------------- Separador -------------------- */
+@media screen and (max-width: 720px){
+    .separador-contenedor{
+        height: auto;
+        margin-bottom: 5px;
+    }
+    
+    .separador-txt-principal{
+        padding-top: 5px;
+        font-size: 22px;
+    }
+    
+    .separador-txt-secundario{
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .separador-btn{
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    .separador-btn a{
+        margin-left: 42%;
+        padding: 5px 2%;
+    }
+}
